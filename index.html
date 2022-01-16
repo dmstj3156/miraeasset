@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>미래에셋자산운용</title>
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!--css-->
+    
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- 모바일 CSS -->
+    <link rel="stylesheet" href="./css/mobile.css">
+    <!--js-->
+    <script src="./js/nav.js"></script>
+    <script src="./js/gallery.js"></script>
+    <!--AOS CSS-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--AOS JS-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!--swiper css-->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<!--swiper js-->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!--font-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap" rel="stylesheet">
+    <!--icon-->
+    <script src="https://unpkg.com/boxicons@2.0.8/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="nav_bg"></div>
+            <nav id="family-site">
+                <div class="container">
+                    <ul class="family-gnb">
+                        <li><a href="#">글로벌네트워크</a></li>
+                        <li><a href="#">글로벌 투자 리포트 구독하기</a></li>
+                        <li class="eng"><a href="#">eng</a></li>
+                    </ul>
+                    <ul class="util">
+                        <li><a href="#">login</a></li>
+                        <li><a href="#">join</a></li>
+                    </ul>
+                </div><!--container-->
+            </nav><!--family-site-->
+            <div class="container">
+                <div class="icon-menu">
+                    <button id="search">
+                        <i class="fa fa-search" aria-hidden="true"></i>
+                    </button>
+                    <button id="toggle">
+                        <i class="fa fa-bars" aria-hidden="true"></i>
+                    </button>
+                  
+                </div><!--icon-menu-->
+           
+                <h1><a href="./index.html"><img src="./images/logo_heade whiter.png" alt=""></a></h1>
+                <h1 class="sub-logo"><a href="./index.html"><img src="./images/logo_header.png" alt=""></a></h1>    
+            </div><!--container-->
+            <nav id="gnb">
+                <div class="container">
+                <div class="close">
+                    <button class="btn_close">
+                        <img src="./images/Icon material-close.svg" alt="close">
+                    </button>
+                </div><!--close-->
+                <ul class="depth1">
+                    <li class="menu">
+                        <a href="#">투자상품 
+                          <button>
+                            <box-icon name='chevron-down'></box-icon>
+                          </button> 
+                        </a>
+                          <ul class="depth2">
+                            <li><a href="#">투자상품 찾기</a></li>
+                            <li><a href="#">투자상품 한눈에 보기</a></li>
+                            <li><a href="#">대표상품</a></li>
+                            <li><a href="#">테마상품관</a></li>
+                            <li><a href="#">판매사별 상품보기</a></li>
+                            <li><a href="#">우리아이상품 보기</a></li>
+                          </ul>
+                        </li>
+                    <li class="menu">
+                            <a href="#">투자정보 
+                              <button>
+                                <box-icon name='chevron-down'></box-icon>
+                              </button> 
+                            </a>
+                         <ul class="depth2">
+                            <li><a href="#">상품 & 뉴스</a></li>
+                             <li><a href="#">글로벌투자라이프</a></li>
+                             <li><a href="#">투자콘텐츠TV</a></li>
+                             <li><a href="#">공시</a></li>
+                             <li><a href="#">언론보도</a></li>
+                            <li><a href="#">펀드계산기</a></li>
+                            <li><a href="#">글로벌투자리포트 구독</a></li>
+                            <li><a href="#">미래에셋자산운용 앱 소개</a></li>
+                        </ul></li>
+                    <li class="menu">
+                        <a href="#">은퇴와 연금 
+                            <button>
+                            <box-icon name='chevron-down'></box-icon>
+                            </button> 
+                        </a>
+                         <ul class="depth2">
+                            <li><a href="#">연금투자 방법</a></li>
+                             <li><a href="#">퇴직연금</a></li>
+                             <li><a href="#">개인연금</a></li>
+                             <li><a href="#">투자와 연금센터</a></li>
+                             <li><a href="#">판매사별 상품보기</a></li>
+                            <li><a href="#">우리아이 상품보기</a></li>
+                        </ul></li>
+                    <li class="menu">
+                         <a href="#">회사소개 
+                              <button>
+                              <box-icon name='chevron-down'></box-icon>
+                              </button> 
+                         </a>
+                           <ul class="depth2">
+                                <li><a href="#">회사개요</a></li>
+                                 <li><a href="#">경영철학</a></li>
+                                 <li><a href="#">연혁</a></li>
+                                 <li><a href="#">재무현황</a></li>
+                                 <li><a href="#">경영공시</a></li>
+                                <li><a href="#">채용정보</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">오시는길</a></li>
+                            </ul></li>
+                        <li class="menu"><a href="#">TIGERETF</a></li>
+                </ul><!--depth1-->
+            </div><!--container-->
+            </nav><!--gnb-->
+    </header>
+    
+    <section id="mainVisual">
+        <!-- 슬라이드 메인 레이아웃 -->
+   <div class="swiper-container" mySwiper>
+    <!-- 슬라이더 본체 감싸는 레이아웃 -->
+        <div class="swiper-wrapper">
+        <!-- 슬라이드 콘텐츠 추가 -->
+            <div class="swiper-slide">
+               <a href="#"> <img src="./images/mainvisual.png" alt="">
+                <div class="mainText">
+                    <div class="container">
+                        <p class="title">원칙을 지키는 투자 <strong>미래에셋자산운용</strong></p>
+                        <p class="sub-title">미래에셋자산운용은 '원칙을 지키는 투자' 라는 철학을 가지고 <br>
+                            고객의 성공적 자산운용에 기여합니다.</p>
+
+                    </div>
+                </div><!--maintext-->
+               </a>
+            </div><!--swiper-slide-->
+            <div class="swiper-slide">
+                <a href="#"> <img src="./images/mainvisual2.png" alt="">
+                 <div class="mainText">
+                     <div class="container">
+                         <p class="title">원칙을 지키는 투자 <strong>미래에셋자산운용</strong></p>
+                         <p class="sub-title">미래에셋자산운용은 '원칙을 지키는 투자' 라는 철학을 가지고 <br>
+                             고객의 성공적 자산운용에 기여합니다.</p>
+ 
+                     </div>
+                 </div><!--maintext-->
+                </a>
+             </div><!--swiper-slide-->
+             <div class="swiper-slide">
+                <a href="#"> <img src="./images/mainvisual3.png" alt="">
+                 <div class="mainText">
+                     <div class="container">
+                         <p class="title">원칙을 지키는 투자 <strong>미래에셋자산운용</strong></p>
+                         <p class="sub-title">미래에셋자산운용은 '원칙을 지키는 투자' 라는 철학을 가지고 <br>
+                             고객의 성공적 자산운용에 기여합니다.</p>
+ 
+                     </div>
+                 </div><!--maintext-->
+                </a>
+             </div><!--swiper-slide-->
+        </div><!--swiper-wrapper-->
+         <!-- pager(아래 표시 동그라미 생략가능) -->
+        <div class="swiper-pagination"></div>
+ 
+ 
+ 
+     </div><!--swiper-container-->
+     </section>
+     
+    <section id="contents1">
+        <div class="container">
+            <form>
+                <input type="search" id="searchText" autofocus placeholder="찾으시는 상품명을 입력하세요">
+                <button class="search-icon"><i class="fa fa-search" aria-hidden="true"></i></button>
+            </form>
+
+            <div class="profit">
+                <h3 class="title">수익률 TOP3</h3>
+                <p class="sub-title">월간</p>
+                <div class="group" data-aos="fade-down" data-aos-easing="linear"
+                data-aos-duration="1500">
+                    <div class="col">
+                        <h4 class="num">1</h4>
+                        <p class="explain">미래에셋차이나H레버리지2.0 <br>
+                            증권자투자신탁(주식-파생재간접형)</p>
+                         <p class="sub-explain">종류A[수수료선취-오프라인]</p>   
+                         <div class="smallcol">
+                             <p class="month first">1개월 수익률</p>
+                             <h2 class="percent one">14.38%</h2>
+                         </div><!--smaillcol-->
+                    </div>
+                    <div class="col">
+                        <h4 class="num">2</h4>
+                        <p class="explain">미래에셋차이나H레버리지1.5 <br>
+                            증권투자신탁(주식-파생재간접형)</p>
+                         <p class="sub-explain" >종류A[수수료선취-오프라인]</p>   
+                         <div class="smallcol">
+                             <p class="month">1개월 수익률</p>
+                             <h2 class="percent">9.28%</h2>
+                         </div><!--smaillcol-->
+                    </div>
+                    <div class="col">
+                        <h4 class="num">3</h4>
+                        <p class="explain" >미래에셋차이나인덱스 <br>
+                            증권자투자신탁(주식)</p>
+                         <p class="sub-explain">종류C-e[수수료미징구-온라인]</p>   
+                         <div class="smallcol">
+                             <p class="month">1개월 수익률</p>
+                             <h2 class="percent">7.47%</h2>
+                         </div><!--smaillcol-->
+                    </div>
+                </div>
+            </div><!--profit-->
+    </div><!--container-->
+    </section>
+
+    <section id="contents2">
+        <div class="container">
+            <h3 class="title">주간 조회수 급상승 펀드</h3>
+            <ul class="box">
+                <li class="rank-box" data-aos="fade-down" data-aos-easing="linear"
+                data-aos-duration="400"><a href="">
+                    <span class="number">1</span>
+                    미래에셋전략배분TDF2045혼합자산자투자신탁 종류C-P[수수료미징구-오프라인-개인연금]
+                    <button><i class="fa fa-star-o" aria-hidden="true"></i></button>
+                </a></li>
+                <li class="rank-box" data-aos="fade-down" data-aos-easing="linear"
+                data-aos-duration="600"><a href="">
+                    <span class="number">2</span>
+                    미래에셋차이나그로스증권자투자신탁1호(주식)종류A[수수료선취-오프라인]
+                    <button><i class="fa fa-star-o" aria-hidden="true"></i></button>
+                </a></li>
+                <li class="rank-box" data-aos="fade-down" data-aos-easing="linear"
+                data-aos-duration="1000"><a href="">
+                    <span class="number">3</span>
+                    미래에셋코어테크증권투자신탁(주식)종류A[수수료선취-오프라인]
+                    <button><i class="fa fa-star-o" aria-hidden="true"></i></button>
+                </a></li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="banner">
+        <div class="container">
+            <h3 class="title">미래에셋자산운용 글로벌 네트워크</h3>
+            <p class="sub-title">더 큰 세상에서 투자의 기회를 찾고 고객과 사회에 기여하겠습니다.</p>
+            <p class="date">2020년 12월 기준</p>
+            <div class="banner-group">
+                <div class="boxline">
+                    <span class="top"></span>
+                    <span class="right"></span>
+                    <span class="bottom"></span>
+                    <span class="left"></span>
+                    <div class="bannerCol">
+                    <p class="small">전세계</p>
+                    <h2 class="big">12개국가</h2>
+                </div>
+            </div><!--div.box end-->
+            <div class="boxline">
+                <span class="top"></span>
+                <span class="right"></span>
+                <span class="bottom"></span>
+                <span class="left"></span>
+                  <div class="bannerCol">
+                    <p class="small">운용자산</p>
+                    <h2 class="big">211조</h2>
+                </div>
+        </div><!--div.box end-->
+              
+            </div><!--banner-group-->
+        </div>
+    </section>
+
+    <section id="notice">
+        <div class="container">
+            <div class="notice-group">
+                <div class="noticeCol">
+                    <ul class="official">
+                        <li class="notice-title">펀드공시 <span class="more">더보기 ></span></li>
+                        <li class="contents"><a href="">매각에 따른 상환금 분배 <span class="date">2022.01.10</span></a></li>
+                        <li class="contents"><a href="">비시장성자산의 처분으로 인한 공시 <span class="date">2022.01.07</span></a></li>
+                        <li class="contents"><a href="">소규모펀드 공시의 건(2021년 12월)<span class="date">2022.01.03</span></a></li>
+                    </ul>
+                </div><!--noticeCol-->
+                <div class="noticeCol">
+                    <ul class="official">
+                        <li class="notice-title">펀드뉴스 <span class="more">더보기 ></span></li>
+                        <li class="contents"><a href="">우리아이 경제교육 위탁운영계약 입찰공고<span class="date">2022.01.10</span></a></li>
+                        <li class="contents"><a href="">미래에셋자산운용 카카오 플친하고 남치니 이모티콘 받자<span class="date">2022.01.07</span></a></li>
+                        <li class="contents"><a href="">미래에셋자산웅용 카카오채널 내 채팅상담 OPEN 안내<span class="date">2022.01.03</span></a></li>
+                    </ul>
+                </div><!--noticeCol-->
+            </div><!--notice-group-->
+        </div><!--container-->
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="sub-footer">
+                <ul class="left">
+                    <li><a href="">English</a></li>
+                    <li><a href="" >글로벌 투자 리포트 구독하기</a></li>
+                </ul>
+                <ul class="sns">
+                    <li><a href=""><img src="./images/Icon awesome-facebook-f.png" alt="facebook"></a></li>
+                    <li><a href=""><img src="./images/Icon awesome-twitter.png" alt="twitter"></a></li>
+                    <li><a href=""><img src="./images/Icon awesome-youtube.png" alt="youtube"></a></li>
+                </ul>
+            </div>
+            <div class="footaria">
+                <img src="./images/logo_header.png" alt="logo">
+                <div class="utilityInfo">
+                    <ul class="info">
+                        <li><a href="">스튜어드십코드</a> <span class="line">|</span> </li>
+                        <li><a href="">개인정보호처리방침</a> <span class="line">|</span> </li>
+                        <li><a href="">신용정보활용체제</a> <span class="line">|</span> </li>
+                        <li><a href="">이용약관</a> <span class="line">|</span> </li>
+                        <li><a href="">서민금융1332서비스</a> <span class="line">|</span> </li>
+                        <li><a href="">클린채널</a> <span class="line">|</span> </li>
+                        <li><a href="">금융소비자보호포탈</a></li>
+                    </ul>
+                    <p class="modal">부패/비리 익명신고</p>
+                    <p class="address">주소 서울시 종로구 종로33, TOWER1 13층  |  1577-1640</p>
+                    <p class="review">미래에셋자산운용 준법감시인 심사필 제 21-0519호 (2021.12.16~2022.12.15)
+                    </p>
+                    <p class="copy">ⓒ 2020 Mirae Asset Global Investments Co.,Ltd.</p>
+                </div><!--utilityInfo-->
+            </div><!--footaria-->
+        </div><!--container-->
+    </footer>
+
+
+
+
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>
