@@ -1,12 +1,12 @@
 $(function(){
-    $('.depth1 > li').on('mouseover', function(){
+    $('#gnb').on('mouseover', function(){
         $('.depth2, .nav_bg').addClass('show');
         $('header,li a,header #family-site,.icon-menu > button >i,.depth1 > li a,header h1.sub-logo')
         .addClass('show');
         
       })
   
-      $('.depth1 > li').on('mouseout', function(){
+      $('#gnb').on('mouseout', function(){
         $('.depth2, .nav_bg').removeClass('show');
       
         $('header,li a,header #family-site,.icon-menu > button >i, .depth1 > li a,header h1.sub-logo').removeClass('show');
@@ -33,3 +33,10 @@ $(window).on('resize', function(){
 })
 })
 
+
+$(function(){
+  $('.box .rank-box button.null').on('click', function(){
+    $('.box .rank-box button.full, .box .rank-box button.full i ').addClass('show');
+    $('.box .rank-box button.null').removeClass('show');
+  })
+});
