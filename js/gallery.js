@@ -26,11 +26,14 @@ $(function(){
             pagination: {
               el: ".swiper-pagination",
               clickable: true,
+              type: "fraction",
             },
             navigation: {
               nextEl: ".swiper-button-next",
               prevEl: ".swiper-button-prev",
             },
           });
+
+        
         
 })
