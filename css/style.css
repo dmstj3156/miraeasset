@@ -22,9 +22,7 @@
   .icon-menu i{
     margin-top: 15px;
   }
-  #gnb .btn_close {
-    display: none;
-  }
+ 
   
   .container {
     width: 1440px;
@@ -133,6 +131,37 @@
 }
 .icon-menu > button >i.show{
   color: #004077;
+}
+.fa-bars.show{
+  color: #004077;
+}
+
+#gnb .container .close{
+  position: absolute;
+   top: -45px;
+   right: 0;
+
+}
+#gnb .container .close .btn_close {
+  border: none;
+  color: #004077;
+   background: none;
+  display: none;
+  width: 30px;
+  
+}
+#gnb .container .close .btn_close i{
+  font-size: 35px;
+
+}
+#gnb .container .close .btn_close.show{
+  display: block;
+}
+#toggle .fa-bars.show{
+    color: white;
+}
+#toggle .fa-bars.menu{
+  color: var(--main-color);
 }
 .fa-search{
    padding-right: 25px;
@@ -281,14 +310,27 @@
     font-size: 25px;
     line-height: 38px;
 }
- #mainVisual .swiper-pagination-bullet {
-        background-color :white;
-        width: 13px;
-        height: 13px;
-        margin-bottom: 20px;
-        position: relative;
-        bottom: 280px;
+
+      .swiper-button-prev:after, .swiper-rtl .swiper-button-next:after,.swiper-button-next:after, .swiper-rtl .swiper-button-prev:after{
+        color: white;
+        margin-top: -250px;
+       
       }
+      .swiper-button-prev, .swiper-rtl .swiper-button-next {
+       margin-left: 230px;
+        right: auto;
+    }
+    .swiper-button-next, .swiper-rtl .swiper-button-prev {
+      margin-right: 230px;
+       right: auto;
+   }
+   .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    margin-bottom: 810px;
+    left: 0;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+}
   #contents1{
     position: relative;
     width: 100%;
@@ -446,7 +488,7 @@ margin-left: 80px;
 }
 .box .rank-box button.full.show{
   display: block;
- 
+  color: var(--sub-color);
 }
 .box .rank-box button.full i.show{
   display: block;
@@ -659,3 +701,4 @@ margin-left: 80px;
    position: absolute;
    right: 0;
  }
+ 
