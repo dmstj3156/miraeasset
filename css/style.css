@@ -7,7 +7,9 @@
     padding: 0;
     box-sizing: border-box;
   }
-
+body{
+  font-family: 'Nanum Gothic', sans-serif;
+}
   a {
     text-decoration: none;
   }
@@ -65,7 +67,7 @@
   header #family-site{
         position: relative;
         border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-        
+        font-family: 'Noto Sans KR', sans-serif;
   } 
   header #family-site.show{
     border-bottom: 1px solid var(--sub-color);
@@ -87,6 +89,7 @@
   #family-site .container .family-gnb li a{ 
     font-size: 13px;
     color: white;
+    
 }
 #family-site .container .family-gnb li a.show{
   color: #070707;
@@ -197,7 +200,7 @@
    width: 210px;
     /* background: #abc; 
     outline: 1px solid rebeccapurple; */
-    
+    font-family: 'Noto Sans KR', sans-serif;
     height: 30px;
     font-size: 20px;
   }
@@ -211,21 +214,22 @@
   .depth1 > li:hover a{
     font-weight: bold;
     color: var(--main-color);
+    font-family: 'Nanum Gothic', sans-serif;
   }
   .depth2 {
     margin-top: 18px;
     transition: 0.2s;
     opacity: 0;
-    max-height: 357px;
+    max-height: 350px;
     width: 210px;
     margin-right: 15px;
     padding-top: 15px;
-    
+    font-family: 'Nanum Gothic', sans-serif;
   }
 
   .depth2.show {
     opacity: 1;
-  height: 357px;
+  height: 350px;
   }
 
   .depth2 > li {
@@ -299,7 +303,8 @@
    }
    .mainText .container p{
        position: relative;
-       bottom: 600px;
+       bottom: 570px;
+       
    }
    .mainText .container p.title{
        font-size: 65px;
@@ -369,7 +374,7 @@
  .profit{
    position: absolute;
    top: 180px;
-  
+   font-family: 'Noto Sans KR', sans-serif;
    width: 1440px;
    margin: 0 auto;
    text-align: center;
@@ -417,8 +422,9 @@
  .smallcol p.month{
    font-size: 16px;
    padding-top: 55px;
-   margin-left: 50px;
+   margin-left: 40px;
    color: #444;
+   font-family: 'Nanum Gothic', sans-serif;
  }
  .smallcol h2.percent{
    font-size: 65px;
@@ -446,6 +452,7 @@ margin-left: 80px;
   font-size: 50px;
   padding-bottom: 45px;
   color: #004077;
+  font-family: 'Noto Sans KR', sans-serif;
 }
 .box{
   padding-bottom: 70px;
