@@ -14,7 +14,20 @@ $(function(){
        
       })
 });
+$(function(){
+  $('.depth1 li').on('click', function(){
+      $('.depth2, .nav_bg').addClass('show');
+      $('header,li a,header #family-site,.icon-menu > button >i,.depth1 > li a,header h1.sub-logo,  #toggle .fa-bars')
+      .addClass('show');
+      $(' #toggle .fa-bars').removeClass('show');
+    })
+    $('gnb').focusout(function(){
+      $('.depth2, .nav_bg').removeClass('show');
+     
+      $(' #toggle .fa-bars').removeClass('show');
+    })
 
+});
 
 $(function(){
   $('#toggle').on('click', function(){
