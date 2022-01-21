@@ -24,7 +24,7 @@
                 <ul>
                     <li><a href="">사용스킬</a></li>
                         <ul>
-                            <li>>HTML5</a></li>
+                            <li>HTML5</a></li>
                             <li>CSS3</a></li>
                             <li>JavaSCript</a></li>   
                             <li>Jquery</a></li>
@@ -32,6 +32,7 @@
                     <li>업데이트</li>
                         <ul>
                             <li>제작기간 : 2022.01.15 ~ 2022.01.16</li>
+                            <li>업데이트 : 2022.01.21 모바일 빈응형 제작</li>
                         </ul>
                 </ul>
         </ul>
