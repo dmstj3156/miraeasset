@@ -936,10 +936,13 @@ top: 23px;
        color: white;
       top: 80px;
        font-size: 30px;
+       
+     
      }
      .swiper-button-prev, .swiper-rtl .swiper-button-next {
       margin-left: 50px; 
       right: auto;
+      
    }
    .swiper-button-next, .swiper-rtl .swiper-button-prev {
       margin-right: 50px;
