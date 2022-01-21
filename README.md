@@ -18,7 +18,7 @@
                 </ul>
             <li><a href="">Page</a></li>
                 <ul>
-                  <li>main index, sub1_1, sub5_1</li> 
+                  <li>main index(반응형)</li> 
                 </ul>
             <li><a href="">작업내용</a></li>
                 <ul>
