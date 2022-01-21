@@ -8,8 +8,8 @@
     <!--jquery-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!--css-->
-    
     <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/swiper.css">
     <!-- 모바일 CSS -->
     <link rel="stylesheet" href="./css/mobile.css">
     <!--js-->
@@ -80,12 +80,12 @@
                             <li><a href="#">판매사별 상품보기</a></li>
                             <li><a href="#">우리아이상품 보기</a></li>
                           </ul>
-                        </li>
+                     </li>   
                     <li class="menu">
                             <a href="#">투자정보</a>
                               <button>
                                 <box-icon name='chevron-down'></box-icon>
-                              </button> 
+                              </button>
                             <ul class="depth2">
                             <li><a href="#">상품 & 뉴스</a></li>
                              <li><a href="#">글로벌투자라이프</a></li>
@@ -95,20 +95,20 @@
                             <li><a href="#">펀드계산기</a></li>
                             <li><a href="#">글로벌투자리포트 구독</a></li>
                             <li><a href="#">미래에셋자산운용 앱 소개</a></li>
-                        </ul></li>
+                        </ul> </li>
                     <li class="menu">
                         <a href="#">은퇴와 연금 </a>
                             <button>
                             <box-icon name='chevron-down'></box-icon>
-                            </button>                        
+                            </button>                       
                          <ul class="depth2">
                             <li><a href="#">연금투자 방법</a></li>
                              <li><a href="#">퇴직연금</a></li>
                              <li><a href="#">개인연금</a></li>
                              <li><a href="#">투자와 연금센터</a></li>
                              <li><a href="#">판매사별 상품보기</a></li>
-                            <li><a href="#">우리아이 상품보기</a></li>
-                        </ul></li>
+                            
+                        </ul></li> 
                     <li class="menu">
                          <a href="#">회사소개</a> 
                               <button>
@@ -119,11 +119,72 @@
                                  <li><a href="#">경영철학</a></li>
                                  <li><a href="#">연혁</a></li>
                                  <li><a href="#">재무현황</a></li>
-                                 <li><a href="#">경영공시</a></li>
+                                
                                 <li><a href="#">채용정보</a></li>
                                 <li><a href="#">FAQ</a></li>
                                 <li><a href="#">오시는길</a></li>
                             </ul></li>
+                        <li class="menu"><a href="#">TIGERETF</a></li>
+                </ul><!--depth1-->
+
+                <ul class="toggle-depth1">
+                    <li class="menu">
+                        <a href="#">투자상품</a>
+                          <button>
+                            <box-icon name='chevron-down'></box-icon>
+                          </button></li> 
+                          <ul class="depth2" tabindex="0">
+                            <li><a href="#">투자상품 찾기</a></li>
+                            <li><a href="#">투자상품 한눈에 보기</a></li>
+                            <li><a href="#">대표상품</a></li>
+                            <li><a href="#">테마상품관</a></li>
+                            <li><a href="#">판매사별 상품보기</a></li>
+                            <li><a href="#">우리아이상품 보기</a></li>
+                          </ul>
+                        
+                    <li class="menu">
+                            <a href="#">투자정보</a>
+                              <button>
+                                <box-icon name='chevron-down'></box-icon>
+                              </button></li>
+                            <ul class="depth2">
+                            <li><a href="#">상품 & 뉴스</a></li>
+                             <li><a href="#">글로벌투자라이프</a></li>
+                             <li><a href="#">투자콘텐츠TV</a></li>
+                             <li><a href="#">공시</a></li>
+                             <li><a href="#">언론보도</a></li>
+                            <li><a href="#">펀드계산기</a></li>
+                            <li><a href="#">글로벌투자리포트 구독</a></li>
+                            
+                        </ul> 
+                    <li class="menu">
+                        <a href="#">은퇴와 연금 </a>
+                            <button>
+                            <box-icon name='chevron-down'></box-icon>
+                            </button></li>                        
+                         <ul class="depth2">
+                            <li><a href="#">연금투자 방법</a></li>
+                             <li><a href="#">퇴직연금</a></li>
+                             <li><a href="#">개인연금</a></li>
+                             <li><a href="#">투자와 연금센터</a></li>
+                             <li><a href="#">판매사별 상품보기</a></li>
+                            
+                        </ul>
+                    <li class="menu">
+                         <a href="#">회사소개</a> 
+                              <button>
+                              <box-icon name='chevron-down'></box-icon>
+                              </button></li>                       
+                           <ul class="depth2">
+                                <li><a href="#">회사개요</a></li>
+                                 <li><a href="#">경영철학</a></li>
+                                 <li><a href="#">연혁</a></li>
+                                 <li><a href="#">재무현황</a></li>
+                                 
+                                <li><a href="#">채용정보</a></li>
+                                <li><a href="#">FAQ</a></li>
+                                <li><a href="#">오시는길</a></li>
+                            </ul>
                         <li class="menu"><a href="#">TIGERETF</a></li>
                 </ul><!--depth1-->
             </div><!--container-->
@@ -138,10 +199,13 @@
         <!-- 슬라이드 콘텐츠 추가 -->
             <div class="swiper-slide">
                <a href="#"> <img src="./images/mainvisual.png" alt="">
-                <div class="mainText">
+                <div class="mainText" >
                     <div class="container">
-                        <p class="title">원칙을 지키는 투자 <strong>미래에셋자산운용</strong></p>
-                        <p class="sub-title">미래에셋자산운용은 '원칙을 지키는 투자' 라는 철학을 가지고 <br>
+                        <p class="title" data-aos="zoom-in"
+                        data-aos-easing="ease-in-sine"
+                        data-aos-duration="1000">원칙을 지키는 투자 <br> <strong>미래에셋자산운용</strong></p>
+                        <p class="sub-title"  data-aos="fade-up"
+                        data-aos-duration="3000">미래에셋자산운용은 '원칙을 지키는 투자' 라는 철학을 가지고 <br>
                             고객의 성공적 자산운용에 기여합니다.</p>
 
                     </div>
@@ -152,8 +216,12 @@
                 <a href="#"> <img src="./images/mainvisual2.png" alt="">
                  <div class="mainText">
                      <div class="container">
-                         <p class="title">원칙을 지키는 투자 <strong>미래에셋자산운용</strong></p>
-                         <p class="sub-title">미래에셋자산운용은 '원칙을 지키는 투자' 라는 철학을 가지고 <br>
+                         <p class="title" data-aos="zoom-in"
+                         data-aos-easing="ease-in-sine"
+                         data-aos-delay="300"
+                         data-aos-offset="0">원칙을 지키는 투자 <br><strong>미래에셋자산운용</strong></p>
+                         <p class="sub-title"  data-aos="fade-up"
+                         data-aos-duration="3000">미래에셋자산운용은 '원칙을 지키는 투자' 라는 철학을 가지고 <br>
                              고객의 성공적 자산운용에 기여합니다.</p>
  
                      </div>
@@ -164,8 +232,12 @@
                 <a href="#"> <img src="./images/mainvisual3.png" alt="">
                  <div class="mainText">
                      <div class="container">
-                         <p class="title">원칙을 지키는 투자 <strong>미래에셋자산운용</strong></p>
-                         <p class="sub-title">미래에셋자산운용은 '원칙을 지키는 투자' 라는 철학을 가지고 <br>
+                         <p class="title" data-aos="zoom-in"
+                         data-aos-easing="ease-in-sine"
+                         data-aos-delay="300"
+                         data-aos-offset="0">원칙을 지키는 투자<br> <strong>미래에셋자산운용</strong></p>
+                         <p class="sub-title"  data-aos="fade-up"
+                         data-aos-duration="3000">미래에셋자산운용은 '원칙을 지키는 투자' 라는 철학을 가지고 <br>
                              고객의 성공적 자산운용에 기여합니다.</p>
  
                      </div>
@@ -236,20 +308,20 @@
                 <li class="rank-box" data-aos="fade-down" data-aos-easing="linear"
                 data-aos-duration="400"><a href="">
                     <span class="number">1</span>
-                    미래에셋전략배분TDF2045혼합자산자투자신탁 종류C-P[수수료미징구-오프라인-개인연금]
+                   <p class="top"> 미래에셋전략배분TDF2045혼합자산자투자신탁 종류C-P[수수료미징구-오프라인-개인연금]</p>
                     <button onclick="addClass" class="null"><i class="fa fa-star-o" aria-hidden="true"></i></button>
                     <button onclick="click" class="full"><i class="fa fa-star" aria-hidden="true"></i></button>
                 </a></li>
                 <li class="rank-box" data-aos="fade-down" data-aos-easing="linear"
                 data-aos-duration="600"><a href="">
                     <span class="number">2</span>
-                    미래에셋차이나그로스증권자투자신탁1호(주식)종류A[수수료선취-오프라인]
+                   <p class="top"> 미래에셋차이나그로스증권자투자신탁1호(주식)종류A[수수료선취-오프라인]</p>
                     <button><i class="fa fa-star-o" aria-hidden="true"></i></button>
                 </a></li>
                 <li class="rank-box" data-aos="fade-down" data-aos-easing="linear"
                 data-aos-duration="1000"><a href="">
                     <span class="number">3</span>
-                    미래에셋코어테크증권투자신탁(주식)종류A[수수료선취-오프라인]
+                  <p class="top">  미래에셋코어테크증권투자신탁(주식)종류A[수수료선취-오프라인]</p>
                     <button><i class="fa fa-star-o" aria-hidden="true"></i></button>
                 </a></li>
             </ul>
@@ -293,17 +365,17 @@
                 <div class="noticeCol">
                     <ul class="official">
                         <li class="notice-title" tabindex="0">펀드공시 <span class="more"> <a href=""> 더보기 ></a></span></li>
-                        <li class="contents"><a href="">매각에 따른 상환금 분배 <span class="date">2022.01.10</span></a></li>
-                        <li class="contents"><a href="">비시장성자산의 처분으로 인한 공시 <span class="date">2022.01.07</span></a></li>
-                        <li class="contents"><a href="">소규모펀드 공시의 건(2021년 12월)<span class="date">2022.01.03</span></a></li>
+                        <li class="contents"><a href=""> <p class="first"> 매각에 따른 상환금 분배</p> <span class="date">2022.01.10</span></a></li>
+                        <li class="contents"><a href=""><p class="first">비시장성자산의 처분으로 인한 공시</p> <span class="date">2022.01.07</span></a></li>
+                        <li class="contents"><a href=""><p class="first">소규모펀드 공시의 건(2021년 12월)</p><span class="date">2022.01.03</span></a></li>
                     </ul>
                 </div><!--noticeCol-->
                 <div class="noticeCol">
                     <ul class="official">
                         <li class="notice-title" tabindex="0">펀드뉴스 <span class="more"><a href=""> 더보기 ></a></span></li>
-                        <li class="contents"><a href="">우리아이 경제교육 위탁운영계약 입찰공고<span class="date">2022.01.10</span></a></li>
-                        <li class="contents"><a href="">미래에셋자산운용 카카오 플친하고 남치니 이모티콘 받자<span class="date">2022.01.07</span></a></li>
-                        <li class="contents"><a href="">미래에셋자산웅용 카카오채널 내 채팅상담 OPEN 안내<span class="date">2022.01.03</span></a></li>
+                        <li class="contents"><a href=""><p class="first">우리아이 경제교육 위탁운영계약 입찰공고</p><span class="date">2022.01.10</span></a></li>
+                        <li class="contents"><a href=""><p class="first"> 미래에셋자산운용 카카오 플친하고 남치니 이모티콘 받자</p><span class="date">2022.01.07</span></a></li>
+                        <li class="contents"><a href=""><p class="first"> 미래에셋자산웅용 카카오채널 내 채팅상담 OPEN 안내</p><span class="date">2022.01.03</span></a></li>
                     </ul>
                 </div><!--noticeCol-->
             </div><!--notice-group-->
@@ -324,7 +396,7 @@
                 </ul>
             </div>
             <div class="footaria">
-                <img src="./images/logo_header.png" alt="logo">
+                <h1><img src="./images/logo_header.png" alt="logo"></h1>
                 <div class="utilityInfo">
                     <ul class="info">
                         <li><a href="">스튜어드십코드</a> <span class="line">|</span> </li>
