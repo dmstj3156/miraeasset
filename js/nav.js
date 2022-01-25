@@ -33,18 +33,18 @@ $(function(){
   $('#toggle').on('click', function(){
     $('#gnb').addClass('show');
     $('.depth2, .nav_bg').addClass('show');
-    $('header,li a,header #family-site,.icon-menu > button >i,.depth1 > li a,header h1.sub-logo')
-    .addClass('show');
-    $('#gnb .container .close .btn_close, #toggle .fa-bars').addClass('show');
     
+    $('#gnb .container .close .btn_close, #toggle .fa-bars').addClass('show');
+    $('.dimmed').addClass('active');
 });
 
 // 메인메뉴 닫기
-$('.btn_close').on('click', function(){
+$('#gnb .container .close .btn_close').on('click', function(){
     $('#gnb').removeClass('show');
     $('.depth2, .nav_bg').removeClass('show');
-    $('header,li a,header #family-site,.icon-menu > button >i, .depth1 > li a,header h1.sub-logo').removeClass('show');
+   
     $('#gnb .container .close .btn_close, #toggle .fa-bars').removeClass('show');  
+    $('.dimmed').removeClass('active');
 });
 
 // PC화면으로 넘어가면 모바일 메뉴 닫기
